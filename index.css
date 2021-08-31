@@ -1,0 +1,23 @@
+.calculator_keys{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr;
+}
+.size{
+    grid-column: 4;
+    grid-row: 2/span 4;
+}
+.calculator{
+    box-sizing: border-box;
+    border: 2px solid rgb(99, 71, 116);
+    display: inline-block;
+    background-color: rgba(100, 148, 237, 0.226);
+    padding: 10px;
+}
+.calculator_display input{
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    width: 86px;
+    text-align: right;
+}
+
+
